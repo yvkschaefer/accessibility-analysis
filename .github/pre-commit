@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+echo
+echo "Running pre-commit checks..."
+echo "To bypass this check, add '--no-verify' to your commit command"
+echo
+
+# Run accessibility checks.
+sh .github/lighthouse.sh
